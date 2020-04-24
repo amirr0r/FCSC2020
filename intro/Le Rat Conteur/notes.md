@@ -8,7 +8,7 @@ openssl enc -d -aes-128-ctr -in flag.jpg.enc -out flag.jpg -K 001122334455667788
 
 ![flag](flag.jpg)
 
-flag: `FCSC{}`
+flag: `FCSC{879C2FEE3B9EFBC651050F881841D209}`
 
 ## Lien utile
 
