@@ -2,30 +2,26 @@
 
 ![enonce](images/enonce.png)
 
-```bash
-$ dirb http://challenges2.france-cybersecurity-challenge.fr:5001/ -X .php
+Arrive sur la page:
 
------------------
-DIRB v2.22    
-By The Dark Raver
------------------
+![site](images/site.png)
 
-START_TIME: Fri Apr 24 19:07:17 2020
-URL_BASE: http://challenges2.france-cybersecurity-challenge.fr:5001/
-WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
-EXTENSIONS_LIST: (.php) | (.php) [NUM = 1]
+Allons voir les sources:
 
------------------
+![cooment](images/comment.png)
 
-GENERATED WORDS: 4612                                                          
+Tester l'argument `?source=1`:
 
----- Scanning URL: http://challenges2.france-cybersecurity-challenge.fr:5001/ ----
-+ http://challenges2.france-cybersecurity-challenge.fr:5001/flag.php (CODE:200|SIZE:0)                                                                                                                                                    
-+ http://challenges2.france-cybersecurity-challenge.fr:5001/index.php (CODE:200|SIZE:238)                                                                                                                                                 
-                                                                                                                                                                                                                                          
------------------
-END_TIME: Fri Apr 24 19:10:50 2020
-DOWNLOADED: 4612 - FOUND: 2
-```
+![source](images/source.png)
 
-flag: `FCSC{a1cec1710b5a2423ae927a12db174337508f07b470fc0a29bfc73461f131e0c2}`
+Tester l'argument `?code=ls`:
+
+![code](images/code.png)
+
+Il y a donc un fichier `flag.php`. Faire un `cat` dessus ne permettra pas d'en afficher le contenu car le **php** sera interprete par notre navigateur. De ce fait, encodons la commande `cat flag.php|grep FCSC` via [urlencoder.org](https://www.urlencoder.org/) et observons le resultat:
+
+![flag](images/flag.png)
+
+> _`grep%20FCSC%20flag.php` aurait egalement pu fonctionner._
+
+flag: `FCSC{5d969396bb5592634b31d4f0846d945e4befbb8c470b055ef35c0ac090b9b8b7}`
