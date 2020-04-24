@@ -53,6 +53,15 @@ Unciphered data :
 b'Y\xcd?\x8cBo\xf5s*\x1b\xd0\x84\xe5\xa5\x99\xbd\x88\n=\xdd\x86Ho\x7f\x93'
 ```
 
+[asecuritysite](https://asecuritysite.com/encryption/factors?n=1034776851837418228051242693253376923)
+
+```
+Factors
+-------
+1,034,776,851,837,418,228,051,242,693,253,376,923 = 952,809,000,096,560,291 x 1,086,027,579,223,696,553
+```
+
 ## Liens utiles
 
 - https://sidsbits.com/RSA-Tool/
+- https://medium.com/asecuritysite-when-bob-met-alice/cracking-rsa-a-challenge-generator-2b64c4edb3e7
