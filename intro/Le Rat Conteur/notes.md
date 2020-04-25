@@ -12,4 +12,5 @@ flag: `FCSC{879C2FEE3B9EFBC651050F881841D209}`
 
 ## Lien utile
 
+- https://stackoverflow.com/questions/41141794/file-encryption-decryption-with-aes-using-linux  
 - https://sandilands.info/sgordon/simple-introduction-to-using-openssl-on-command-line

@@ -1,0 +1,15 @@
+uid=1001(fcsc) gid=1001(fcsc) groups=1001(fcsc)
+/home/fcsc
+ 07:10:25 up 24 min,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+fcsc     tty7     :0               06:46   24:47   3.13s  0.00s /bin/sh /etc/xdg/xfce4/xinitrc -- /etc/X11/xinit/xserverrc
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+Templates
+Videos
+flag.zip
+Documents/flag.zip: Zip archive data, at least v2.0 to extract

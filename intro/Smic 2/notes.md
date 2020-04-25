@@ -53,15 +53,47 @@ Unciphered data :
 b'Y\xcd?\x8cBo\xf5s*\x1b\xd0\x84\xe5\xa5\x99\xbd\x88\n=\xdd\x86Ho\x7f\x93'
 ```
 
-[asecuritysite](https://asecuritysite.com/encryption/factors?n=1034776851837418228051242693253376923)
+## Tentative 3
 
-```
-Factors
--------
-1,034,776,851,837,418,228,051,242,693,253,376,923 = 952,809,000,096,560,291 x 1,086,027,579,223,696,553
+```bash
+$ python3
+Python 3.8.2 (default, Apr  1 2020, 15:52:55) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> c = 63775417045544543594281416329767355155835033510382720735973
+>>> n = 632459103267572196107100983820469021721602147490918660274601
+>>> e = 65537
+>>> # https://www.alpertron.com.ar/ECM.HTM
+>>> p = 650655447295098801102272374367
+>>> q =  972033825117160941379425504503
+>>> 
+>>> p * q
+632459103267572196107100983820469021721602147490918660274601
+>>> 
+>>> 
+>>> p * q == n
+True
+>>> 
+>>> (p-1)*(q-1)
+632459103267572196107100983818846332449189887748436962395732
+>>> def euclide_etendu(e, phi_n) :
+...   d = 1 
+...   temp = (e*d)%phi_n
+...   while(temp != 1):
+...     d = d+1
+...     temp = (e*d)%phi_n
+...   return d
+... 
+>>> euclide_etendu
+<function euclide_etendu at 0x7f184bab20d0>
+>>> phi_n = (p-1)*(q-1)
+>>> euclide_etendu(e, phi_n)
+
 ```
 
 ## Liens utiles
 
+- https://asecuritysite.com/encryption/rsac
 - https://sidsbits.com/RSA-Tool/
 - https://medium.com/asecuritysite-when-bob-met-alice/cracking-rsa-a-challenge-generator-2b64c4edb3e7
+- https://repl.it/@chinmi/RSA

