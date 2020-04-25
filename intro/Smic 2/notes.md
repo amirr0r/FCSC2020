@@ -6,25 +6,6 @@ Meme chose que pour **SMIC 1**, en allant sur ce [site](https://www.cs.drexel.ed
 
 ![formule](images/formule.png)
 
-Par consequent, si on fait le calcul:
-
-```bash
-Python 3.8.2 (default, Apr  1 2020, 15:52:55) 
-[GCC 9.3.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> c = 63775417045544543594281416329767355155835033510382720735973
->>> n = 632459103267572196107100983820469021721602147490918660274601
->>> e = 65537
->>> 
->>> 
->>> m = (c ** e) % n
->>> m
-25962168794090271209460257543802326200359078643230397438572
->>>
-```
-
-flag: `FCSC{25962168794090271209460257543802326200359078643230397438572}` ? **Non**
-
 ## Tentative 2
 
 ```bash
@@ -76,24 +57,23 @@ True
 >>> 
 >>> (p-1)*(q-1)
 632459103267572196107100983818846332449189887748436962395732
->>> def euclide_etendu(e, phi_n) :
-...   d = 1 
-...   temp = (e*d)%phi_n
-...   while(temp != 1):
-...     d = d+1
-...     temp = (e*d)%phi_n
-...   return d
-... 
->>> euclide_etendu
-<function euclide_etendu at 0x7f184bab20d0>
 >>> phi_n = (p-1)*(q-1)
->>> euclide_etendu(e, phi_n)
-
+>>> # https://www.dcode.fr/inverse-modulaire
+>>> d = 168419004077477912728094456102758841477383186917096020076145
+>>> pow(c,d,n)
+563694726501963824567957403529535003815080102246078401707923
+>>> m = pow(c,d,n)
+>>> pow(m,e,n)
+63775417045544543594281416329767355155835033510382720735973
+>>> pow(m,e,n) == c
+True
 ```
+flag: `FCSC{563694726501963824567957403529535003815080102246078401707923}` ? **Non**
 
 ## Liens utiles
 
 - https://asecuritysite.com/encryption/rsac
+- https://www.dcode.fr/inverse-modulaire
+- https://www.alpertron.com.ar/ECM.HTM
 - https://sidsbits.com/RSA-Tool/
 - https://medium.com/asecuritysite-when-bob-met-alice/cracking-rsa-a-challenge-generator-2b64c4edb3e7
-- https://repl.it/@chinmi/RSA
