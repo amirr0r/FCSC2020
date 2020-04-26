@@ -73,7 +73,29 @@ function show()
 </html>
 ```
 
-flag: `FCSC{}`
+En essayant de reproduire le comportement du serveur en local:
+
+```bash
+$ mkdir -p /var/www/html/bestiary/sessions
+$ chmod 777 /var/www/html/bestiary/sessions # pour le user www-data
+$ cp index.php /var/www/html/bestiary/sessions/index.php
+```
+
+Je voulais verifier le contenu du dossier **sessions**:
+
+![test_local](images/test_local.png)
+
+Un fichier avec le contenu de notre `PHPSESSID`:
+
+![session_PHPSESSID](images/session_PHPSESSID.png)
+
+![payload](images/payload.png)
+
+`http://challenges2.france-cybersecurity-challenge.fr:5004/index.php?monster=<?php echo $flag; ?>`
+
+![flag](images/flag.png)
+
+flag: `FCSC{83f5d0d1a3c9c82da282994e348ef49949ea4977c526634960f44b0380785622}`
 
 ## Liens utiles
 - https://github.com/blinils/CTF/tree/master/CTF-VulnLabs/lampsecurity-CTF5
