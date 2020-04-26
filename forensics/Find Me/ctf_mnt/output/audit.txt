@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Apr 26 16:54:59 2020
+Invocation: foremost unlock_me 
+Output directory: /mnt/hgfs/Shared/fcsc/forensics/Find Me/ctf_mnt/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: unlock_me
+Start: Sun Apr 26 16:54:59 2020
+Length: 25 MB (26214400 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Sun Apr 26 16:54:59 2020
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sun Apr 26 16:54:59 2020
