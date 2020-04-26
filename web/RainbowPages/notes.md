@@ -215,3 +215,5 @@
 ## Liens utiles
 
 - https://jaimelightfoot.com/blog/hack-in-paris-2019-ctf-meet-your-doctor-graphql-challenge/
+- https://github.com/swisskyrepo/GraphQLmap
+- https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/GraphQL%20Injection/README.md
