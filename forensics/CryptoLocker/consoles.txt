@@ -1,0 +1,88 @@
+**************************************************
+ConsoleProcess: conhost.exe Pid: 1904
+Console: 0xbe81c0 CommandHistorySize: 50
+HistoryBufferCount: 2 HistoryBufferMax: 4
+OriginalTitle: C:\Program Files\OpenSSH\bin\cygrunsrv.exe
+Title: C:\Program Files\OpenSSH\bin\cygrunsrv.exe
+AttachedProcess: sshd.exe Pid: 1928 Handle: 0x54
+----
+CommandHistory: 0x200960 Application: sshd.exe Flags: Allocated
+CommandCount: 0 LastAdded: -1 LastDisplayed: -1
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x54
+----
+CommandHistory: 0x2007f0 Application: cygrunsrv.exe Flags: 
+CommandCount: 0 LastAdded: -1 LastDisplayed: -1
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x0
+----
+Screen 0x2160a8 X:80 Y:300
+Dump:
+
+**************************************************
+ConsoleProcess: conhost.exe Pid: 3428
+Console: 0xbe81c0 CommandHistorySize: 50
+HistoryBufferCount: 1 HistoryBufferMax: 4
+OriginalTitle: C:\Users\IEUser\Desktop\update_v0.5.exe
+Title: C:\Users\IEUser\Desktop\update_v0.5.exe
+AttachedProcess: update_v0.5.ex Pid: 3388 Handle: 0x5c
+----
+CommandHistory: 0x309a78 Application: update_v0.5.exe Flags: Allocated
+CommandCount: 0 LastAdded: -1 LastDisplayed: -1
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x5c
+----
+Screen 0x2f60a0 X:80 Y:300
+Dump:
+        ENCRYPTOR v0.5                                                          
+                                                                                
+[info] entering the folder : ./                                                 
+[info] file encryptable found : ./flag.txt                                      
+                                                                                
+****Chiffrement termin??e ! Envoyez l'argent !                                  
+**************************************************
+ConsoleProcess: conhost.exe Pid: 2028
+Console: 0xbe81c0 CommandHistorySize: 50
+HistoryBufferCount: 1 HistoryBufferMax: 4
+OriginalTitle: C:\Users\IEUser\Desktop\DumpIt.exe
+Title: C:\Users\IEUser\Desktop\DumpIt.exe
+AttachedProcess: DumpIt.exe Pid: 2208 Handle: 0x5c
+----
+CommandHistory: 0x44a9d8 Application: DumpIt.exe Flags: Allocated
+CommandCount: 0 LastAdded: -1 LastDisplayed: -1
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x5c
+----
+Screen 0x4360a0 X:80 Y:300
+Dump:
+                                                                                
+  DumpIt 3.0.20200224.1 (X86) (Feb 24 2020)                                     
+  Copyright (C) 2007 - 2020, Matt Suiche (msuiche)                              
+  Copyright (C) 2016 - 2020, Comae Technologies DMCC <https://www.comae.com>    
+  All rights reserved.                                                          
+                                                                                
+  DumpIt is the best for acquisition but... our platform Stardust is also the be
+st for analysis!                                                                
+  Access it on https://my.comae.com - info@comae.com if you have any questions. 
+                                                                                
+    Destination path:           \??\C:\Users\IEUser\Desktop\IEWIN7-20200413-1839
+30.dmp                                                                          
+                                                                                
+    Computer name:              IEWIN7                                          
+                                                                                
+                                                                                
+    --> Proceed with the acquisition ? [y/n] y                                  
+                                                                                
+    [+] Information:                                                            
+    Dump Type:                   Microsoft Crash Dump                           
+                                                                                
+                                                                                
+    [+] Machine Information:                                                    
+    Windows version:             6.1.7601                                       
+    MachineId:                   88C74D56-863E-C3A6-B91E-C1719B06467C           
+    TimeStamp:                   132312767754375000                             
+    Cr3:                         0x185000                                       
+    KdDebuggerData:              0x8273ac78                                     
+                                                                                
+    Current date/time:          [2020-04-13 (YYYY-MM-DD) 18:39:35 (UTC)]        
+    + Processing...                                                             
